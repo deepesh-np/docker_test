@@ -31,7 +31,7 @@ services:
       - mongo-network
 
   app:
-    image: liquid003/test:1.0   # Change to your Docker Hub image
+    image: liquid003/test  # Change to your Docker Hub image
     container_name: test-app
     restart: unless-stopped
     ports:
